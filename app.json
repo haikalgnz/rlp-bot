@@ -1,0 +1,11 @@
+{
+  "name": "Laskamana27",
+  "description": "Lightweight WhatsApp Bot",
+  "repository": "https://github.com/Laksmana27/rlp-bot",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "whatsapp-bot"
+  ]
+}
