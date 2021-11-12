@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let handler = async(m, { conn }) => {
     let teks = `
-Kebijakan Privasi, Syarat Ketentuan dan Peraturan Haruno Bot
+Kebijakan Privasi, Syarat Ketentuan dan Peraturan RLP-Bot
 
 Kebijakan Privasi
 1. RLP-BOT  tidak akan merekam data riwayat chat user.
