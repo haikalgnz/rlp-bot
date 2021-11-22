@@ -31,7 +31,7 @@ handler.all = async function (m, { isBlocked }) {
         this.send2Button(m.chat, `┌〔 Undang Bot ke Grup 〕
 ├ 3 Hari / GRATIS 
 ├ 7 Hari / Rp7.000
-├ 30 Hari / Rp10.000
+├ 30 Hari / Rp20.000
 └────
 
 
@@ -65,7 +65,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        // await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | Haruno bot oleh Fadli`).catch(_ => _) // disable jika kamu tidak suka dengan ini
+        await this.setStatus(`Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | Ikal bot oleh Haikal`).catch(_ => _) // disable jika kamu tidak suka dengan ini
         setting.status = new Date() * 1
     }
 
