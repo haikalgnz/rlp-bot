@@ -11,18 +11,18 @@ let handler = async(m, { conn }) => {
 Silahkan klik pada "List Harga" untuk melihat list.
 
 Pembayaran:
-Saweria: https://saweria.co/FadliStudio (+5.000)
-Pulsa (XL): 6281943265086 (+5.000)
-GoPay: 628112958665
-Dana: 628112958665
-OVO: 628112958665
+Saweria: https://saweria.co/haikalofc (+5.000)
+Pulsa (XL): 6289676380659 (+5.000)
+GoPay: 6285363810820
+Dana: 6289603042257
+OVO: -
 `.trim()
     const button = {
         buttonText: 'List Harga',
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
-        {title: '2 Bulan', description: "Rp15.000\nSewa bot tanpa batasan waktu.", rowId:".masuk"},
-        {title: '1 Bulan', description: "Rp10.000\nSewa bot selama 1 bulan.", rowId:".masuk"},
+        {title: '2 Bulan', description: "Rp35.000\nSewa bot selama 2 bulan.", rowId:".masuk"},
+        {title: '1 Bulan', description: "Rp20.000\nSewa bot selama 1 bulan.", rowId:".masuk"},
         {title: '1 Minggu', description: "Rp7.000\nSewa bot selama 1 minggu.", rowId:".masuk"},
         {title: 'Trial', description: "GRATIS\nBot gratis 3 Hari.", rowId:".join"},
         {title: 'Owner', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
